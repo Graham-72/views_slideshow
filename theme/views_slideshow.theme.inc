@@ -39,7 +39,6 @@ function _views_slideshow_preprocess_views_slideshow(&$vars) {
     $settings = $options[$main_frame_module];
     $view = $vars['view'];
     $rows = $vars['rows'];
-    $num_divs = count($rows);
     $vss_id = $view->name . '-' . $view->current_display;
 
     // Give each slideshow a unique id if there are more than one on the page.
